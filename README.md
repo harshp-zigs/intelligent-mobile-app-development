@@ -32,13 +32,7 @@ This brief is for product and technology leaders deciding where to invest. It ex
 
 ## The Intelligence Loop
 
-```mermaid
-flowchart LR
-    A[Observe behavior and context] --> B[Predict the next need]
-    B --> C[Offer a helpful action]
-    C --> D[Learn from the response]
-    D --> A
-```
+![The intelligence loop: observe, predict, act, learn](./intelligence-loop.svg)
 
 Each pass through the loop makes the next prediction better, provided the app records whether its suggestion was accepted, ignored, or rejected.
 
